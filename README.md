@@ -1,6 +1,6 @@
  Binary Search Trees
 --------------------------------------------------------------------------------------------------------------------------------
-Simple java program that allows you to generate/store/views binary tree in json format. 
+Simple java program that allows you to generate/store/view binary trees in json format. 
 This project uses MySQL Workbench,and program can also run with a Docker Container.
 --------------------------------------------------------------------------------------------------------------------------------
 How To Work the Program:
