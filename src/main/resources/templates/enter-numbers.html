@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<header>
+    <div>
+        <h1>Generate Tree</h1>
+        <nav>
+            <a th:href="@{/}" >[Home]</a>
+            </br>
+            </br>
+            <a th:href="@{/previous-trees}">[Previous Trees]</a>
+            </br>
+            </br>
+        </nav>
+    </div>
+</header>
+<div>
+    <form th:action="@{/process-numbers}" method="post">
+        <label for="numbers" >Enter a list of numbers</label>
+        <input type="text" id="numbers" name="numbers" required>
+        <button type="submit" >Create</button>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<header>
+    <div>
+        <h1>Tree Created</h1>
+        <nav>
+            <a th:href="@{/}">[Home]</a>
+            </br>
+            </br>
+            <a th:href="@{/enter-numbers}">[Enter Numbers]</a>
+            </br>
+            </br>
+            <a th:href="@{/previous-trees}">[Previous Trees]</a>
+            </br>
+            </br>
+        </nav>
+    </div>
+</header>
+
+<p> Your tree has been successfully created !! </p>
+
+<pre th:text="${jsonData}"></pre>
+
+</body>
+</html>

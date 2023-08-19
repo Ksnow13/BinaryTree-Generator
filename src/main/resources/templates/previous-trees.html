@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<header>
+    <div>
+        <h1>Previous Trees</h1>
+        <nav>
+            <a th:href="@{/}">[Home]</a>
+            </br>
+            </br>
+            <a th:href="@{/enter-numbers}">[Enter Numbers]</a>
+            </br>
+            </br>
+        </nav>
+    </div>
+</header>
+<ul>
+    <li th:each="jsonFormatTree : ${jsonFormatTreeList}">
+        <pre th:text="${jsonFormatTree}"></pre>
+    </li>
+</ul>
+</body>
+</html>

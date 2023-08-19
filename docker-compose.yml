@@ -1,0 +1,11 @@
+version: '3'
+services:
+  myapp-main:
+    image: my_docker_container:latest
+    ports:
+      - 8080:8080
+    environment:
+      - spring.datasource.url=jdbc:mysql://host.docker.internal:3306/finalsprint_soloproject_db
+      - spring.datasource.password=Optical81101
+      - spring.datasource.username=root
+      - spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
