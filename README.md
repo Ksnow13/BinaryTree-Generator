@@ -20,7 +20,7 @@ HOW TO RUN WITH DOCKER CONTAINER
 
 - Have Docker installed on your machine.
 - Have the project opened in your environment then go to the terminal.
-- type: docker build -t my_docker_container .
+- Type: docker build -t my_docker_container .
 - After running that, type docker-compose up
 - Once you enter that command the container should be up and running.
 - The API and website should now be accessible at http://localhost:8080
